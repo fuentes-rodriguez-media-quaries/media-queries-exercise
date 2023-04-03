@@ -33,7 +33,6 @@ h1{
     display: flex;
     flex-direction: column;
     padding: 0;
-    /*margin: 0;*/
     justify-content: center;
     align-items: center;
 
@@ -56,7 +55,6 @@ img{
 li{
 
     background-color: lightgray;
-    /*margin .2em;*/
     display: flex;
     align-items: center;
     justify-content: center;
