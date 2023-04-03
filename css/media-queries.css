@@ -75,3 +75,13 @@ p{
 .sub-section{
     font-style: italic;
 }
+.sub-section h2{
+    font-size: 22px;
+}
+footer{
+    padding-top: 3em;
+}
+#social-media-links{
+    display: flex;
+    justify-content: flex-end;
+}
