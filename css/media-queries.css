@@ -79,9 +79,12 @@ p{
     font-size: 22px;
 }
 footer{
-    padding-top: 3em;
-}
-#social-media-links{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#social-media-links {
+    display: flex;
+    align-items: center;
+    margin: 0;
 }
