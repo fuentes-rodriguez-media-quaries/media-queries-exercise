@@ -1,0 +1,34 @@
+.alert-info{
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    border: 1px solid grey;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+.nav-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+
+}
+
+
+img{
+
+    height: 300px;
+    width: 300px;
+
+
+}
+.header-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
