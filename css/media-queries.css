@@ -1,8 +1,19 @@
+*{
+    margin: 1em;
+    font-family: sans-serif;
+}
+a{
+    padding: .5em;
+
+}
+
 .alert-info{
     display: flex;
     justify-content: center;
     background-color: lightblue;
     border: 1px solid grey;
+    color: black;
+    text-decoration: none;
 }
 
 h1{
@@ -11,9 +22,11 @@ h1{
     font-weight: bolder;
 }
 .nav-links{
+    list-style: none;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     background-color: lightgray;
 
