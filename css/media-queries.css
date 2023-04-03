@@ -28,7 +28,6 @@ h1{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-color: lightgray;
 
 }
 
@@ -44,4 +43,18 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+li{
+
+    background-color: lightgray;
+    padding: .2em ;
+    margin .2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+
+
 }
