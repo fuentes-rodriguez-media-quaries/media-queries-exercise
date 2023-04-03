@@ -60,3 +60,18 @@ li{
     width: 100%;
 
 }
+h2{
+    margin:  0;
+    display: flex;
+    justify-content: flex-start;
+    padding:.5em 0;
+}
+
+p{
+    margin:  0;
+    display: flex;
+    justify-content: flex-start;
+}
+.sub-section{
+    font-style: italic;
+}
