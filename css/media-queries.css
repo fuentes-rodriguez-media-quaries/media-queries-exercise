@@ -101,24 +101,39 @@ footer{
         justify-content: flex-start;
         font-weight: bolder;
 
+
     }
+nav{
+    display: flex;
+    justify-content: flex-end;
+
+}
     .nav-links{
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
-
+        justify-content: space-between;
 
     }
     li{
         background-color: white;
-        padding: 0;
-        margin: 0;
-        width: auto;
+        /*padding: 0;*/
+        /*margin: 0;*/
+        /*width: auto;*/
+
     }
     a{
         padding: 0;
         margin: 0;
     }
+/*h2{*/
+/*    width: 50%;*/
+/*   */
+/*}*/
 
 
-}
+/*.main{*/
+/*    padding: 25px;*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: flex-end;*/
+/*}*/
