@@ -142,14 +142,13 @@ footer{
 
     section{
         display: inline-block;
-        flex-wrap: wrap;
         margin-bottom: 10em;
     }
     .main{
-    width: 50%;
+    width: 60%;
 }
     .sub-section{
-        width: 30%;
+        width: 35%;
         align-items: flex-end;
     }
 
