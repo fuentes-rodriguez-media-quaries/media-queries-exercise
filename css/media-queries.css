@@ -85,18 +85,20 @@ p{
 footer{
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 }
+
 #social-media-links {
     display: flex;
     align-items: center;
     margin: 0;
 }
-@media screen and (min-width:500px){
-    .hidden-on-desktop{
+@media screen and (min-width:500px) {
+    .hidden-on-desktop {
         display: none;
     }
-    h1{
+
+    h1 {
         display: flex;
         justify-content: flex-start;
         font-weight: bolder;
@@ -104,42 +106,51 @@ footer{
         font-size: 45px;
 
 
+    }
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        right: 0px;
+        top: 30px;
+
 
     }
-nav{
-    display: flex;
-    justify-content: flex-end;
-    position: absolute;
-    right: 0px;
-    top: 30px;
 
-
-}
-    .nav-links{
+    .nav-links {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
 
 
-
     }
-    li{
+
+    li {
         background-color: white;
 
     }
-    a{
+
+    a {
         padding: 0;
         margin: 0;
     }
-/*h2{*/
-/*    width: 50%;*/
-/*   */
-/*}*/
 
+    h2{
+        padding-bottom: 1.5em;
+    }
 
-/*.main{*/
-/*    padding: 25px;*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    justify-content: flex-end;*/
-/*}*/
+    section{
+        display: inline-block;
+        flex-wrap: wrap;
+        margin-bottom: 10em;
+    }
+    .main{
+    width: 50%;
+}
+    .sub-section{
+        width: 30%;
+        align-items: flex-end;
+    }
+
+}
